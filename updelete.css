@@ -1,0 +1,82 @@
+body {
+    height: 100vh;
+    display: flex;
+
+}
+
+.body-form {
+    margin: auto;
+    border: 1px solid gray;
+    padding: 90px;
+    box-sizing: border-box;
+}
+
+.input-text {
+    display: flex;
+    margin-top: 10px;
+}
+
+.input-text>label {
+    width: 100px;
+}
+
+button {
+    margin-top: 10px;
+}
+
+table {
+    margin-top: 30px;
+    width: 100%;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th,
+td {
+    border: 1px solid black;
+    padding: 8px;
+}
+
+th {
+    background-color: lightgray;
+    font-weight: bold;
+}
+
+td {
+    text-align: center;
+}
+
+.input-text {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 8px;
+}
+.input-style{
+    border: 2px solid gray;
+    box-shadow: 1px 1px 1px inset;
+}
+
+.input-text label {
+    margin-bottom: 4px;
+    font-weight: bold;
+}
+
+.body-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 16px;
+}
+
+.form-sum {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 16px;
+}
+.form-text{
+    display: flex;
+}

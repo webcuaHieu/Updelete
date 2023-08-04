@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Table with Add and Delete</title>
+  <link rel="stylesheet" href="updelete.css">
+
+</head>
+
+<body>
+
+  <div class="body-form">
+    <h2>Quản lý sinh viên</h2>
+    <div class="time"></div>
+    <div class="form-text">
+      <div class="form-sum">
+        <div class="input-text">
+          <label for="">Id</label>
+          <input type="number" id="id" class="input-style">
+        </div>
+        <div class="input-text">
+          <label for="">Tên </label>
+          <input type="text" id="name" class="input-style">
+        </div>
+        <div class="input-text">
+          <label for="">Số điện thoại</label>
+          <input type="number" id="phone" class="input-style">
+        </div>
+      </div>
+      <div class="from-image">
+        <img src="" alt="" id='avatar'>
+        <button>Chọn ảnh</button>
+      </div>
+      <div>
+        <button onclick="add()">Submit</button><br>
+        <button onclick="clearInpput()">Delete</button>
+      </div>
+    </div>
+    <div>
+      <button onclick="search()">Tìm kiếm</button>
+      <input type="text" placeholder="Tìm kiếm.." id="keyword" class="input-style">
+    </div>
+    <table>
+      <thead>
+        <tr>
+          <th>Id</th>
+          <th>Tên</th>
+          <th>Số điện thoại</th>
+          <th>Xóa</th>
+        </tr>
+      </thead>
+      <tbody id="render">
+      </tbody>
+    </table>
+  </div>
+
+  <script src="updelete.js"></script>
+</body>
+
+</html>
